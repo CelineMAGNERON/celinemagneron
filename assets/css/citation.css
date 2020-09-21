@@ -1,0 +1,83 @@
+body {
+    width: 500px;  
+    margin: auto;
+    background: #282a36;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding-top : 10px;
+    margin-top: 50px;
+    max-width: 500px;
+    border-radius: 4px; /*Arrondi les angles*/
+    font-family: 'Lobster', cursive;
+    background-color: lightgray;
+}
+
+.button {
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+    top: 35%;
+    background-color: #01D758;
+    color: white;
+    padding: 0.8em;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    margin-bottom:35px;
+}
+
+.button:hover {
+    background-color: #40E0D0;
+}
+
+/*Au survol du bouton*/
+.button:hover .tooltip {
+    opacity: 1;
+    transform: translateY(100%);
+}
+
+/*Au clic du bouton*/
+.button:active {
+    background-color: #ddd;
+}
+
+.button:focus {
+    outline: none;
+}
+
+blockquote {
+    font-family: 'Courgette', cursive;
+}
+
+.tooltip {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    background: lightgray;
+    color: black;
+    font-family: 'Lobster', cursive;
+    border-radius: 4px;
+    padding: 0.4em;
+    /*Animation : Y pour de haut en bas, sinon X pour gauche à droite   */
+    transform: translateY(100%);
+        opacity: 0;
+    /* Taille de police */
+    font-size: 0.7em;
+    /* Délai d'apparition */
+    transition: 600ms;
+}
+
+.tooltip:before {
+    color: lightgray;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    border-bottom: 8px solid #f8f8f2;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
