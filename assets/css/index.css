@@ -1,21 +1,21 @@
 /*********************************
 *     MAIN CSS
 **********************************/
-
-body {
-    height: 100vh;
-    overflow-x: hidden;
+* { 
+    box-sizing: inherit
 }
 
-main {
-    margin: 0px, 64px;
+body {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 #maincard {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column wrap;
-    height: 700px;
+    height:100vh;
     justify-content: center;
     text-align: center; 
 }
@@ -59,7 +59,7 @@ main {
 
 #maincard h3 {
     font-size: 1,5em;
-    color: #93073e;
+    color: #ff5627;
 }
 
 #navig{
@@ -71,7 +71,7 @@ main {
     padding: 32px;
     font-size: 1em;
     font-weight: bold;
-    color: #c90035;}
+    color: #D80844;}
 
 #maincard a:hover {
     color: #ff5627;
@@ -87,13 +87,22 @@ main {
 
 #who {
     display: flex;
+    height: 100%;
     flex-wrap: wrap;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;   
     margin-bottom: 16px;
     padding-bottom: 16px;
-    color: #c90035;
+}
+
+#who h3 {
+    color: #D80844;
+}
+
+#who p {
+    margin: 1em;
+    text-align: justify;
 }
 
 .logo {
@@ -122,6 +131,7 @@ main {
 
 .section div {
     width: 50%;
+    height:100vh;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -131,8 +141,12 @@ main {
 }
 
 .section:nth-child(odd) div {
-    background: #c90035;
+    background: #D80844;
     color: white;
+}
+
+.section:nth-child(even) div h3 {
+    color: #D80844;
 }
 
 .section:nth-child(odd) div {
@@ -159,7 +173,7 @@ main {
 
 #comments h2 {
     font-size: 1,5em;
-    color: #93073e;
+    color: #D80844;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column wrap;

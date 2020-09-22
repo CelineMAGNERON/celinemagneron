@@ -1,3 +1,4 @@
+<body>
 <!---------------------------- 
             HEADER 
 ----------------------------->
@@ -20,10 +21,11 @@
             <h1>Développeuse web JavaScript Front end</h1>
             <h3>Je développe des applications en co-conception et des interfaces accessibles à tout public</h3>
             <div id="navig">
-                <a class="button" href="#a_propos" title="A propos">Mon parcours</a>
-                <a class="button" href="#quisuije" title="Qui suis-je">Qui suis-je ?</a>
+                <a class="button" href="#who" title="Qui suis-je ?">Qui suis-je ?</a>
                 <a class="button" href="#projets" title="Mes projets persos">Mes projets perso</a>
-                <a class="button" href="#experience" title="Experiences">Mes expériences</a>
+                <a class="button" href="#xp" title="Experiences">Mon parcours pro</a>
+                <a class="button" href="#formations" title="Formations">Mes formations</a>
+                <a class="button" href="#extrapro" title="Extra-pro">En extra-pro</a>
             </div>
         </div>
     </section>
@@ -31,7 +33,13 @@
     <!-- Section Qui suis-je -->
     <section id="who">
         <h3>Qui suis-je ?</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem porro quam mollitia architecto fugit, animi cum, adipisci nobis id autem modi voluptas quibusdam magni, sapiente nulla. Quia minima enim exercitationem.</p>
+        <p>Enfant des années fin 90, depuis la campagne où j'ai grandi, j'étais insatiablement attirée par cette toile naissante qu'est le World Wide Web. Pourquoi s'occuper d'un Tamagochi alors qu'on peut s'investir à convaincre ses parents à équiper la maison d'un ordinateur (avec une connexion évidemment, merci AOL !) ? 
+        <p>Plus tard, après 8 ans à évoluer dans le secteur professionnel du social, il est temps de revenir à ce centre d'intérêt de cette drôlesse (pour parler poitevin) 'millenniale'.</p>
+        <p>Mon projet professionnel est de devenir développeuse full-stack JavaScript, tout en sensibilisant à l’accessibilité du web pour tout internaute, et me spécialiser dans l’éco-conception des projets afin de minimiser l’impact du web sur l’environnement.</p>
+        <p>J'ai débuté par une formation intensive à l'ENI Ecole Informatique de niveau 5. Cependant afin d’optimiser la qualité de mon parcours auprès de professionnels, j’ai intègré le Bachelor Développeuse web en alternance à l’ICSSA de Niort et en partenariat avec 3iL Ingénieurs de Limoges, pour une durée d’un an, en septembre 2020 : 
+        <a class="button" href="https://www.icssa-niort.com/organisation-pedagogique-formations-icssa/centre-de-formation/le-bachelor-web-developpeur/" title="ICSSA" target="_blank">Voir le descriptif de la formation</a>.</p>
+        <p>Je suis à la recherche d'une structure dynamique et tournée vers des technologies toujours actualisées dans laquelle investir mes compétences et ma créativité sur un poste de développeuse JavaScript, et restant ouverte aux postes J2EE  :)</p>
+        <p>Durant ces huit dernières années à évoluer dans le secteur du social, j’ai développé de solides capacités pour travailler en équipe, développer mon sens de l’adaptation et l’autodidaxie. Je suis sensible aux valeurs Humaines, du sens poétique au sens éthique, et par conséquent à l’ergonomie et à l’accessibilité du web.</p>
         <div class="logo">
             <a href="https://www.linkedin.com/in/c%C3%A9line-magneron-861253138/" rel="" target="_blank">
                 <img class="logo" src="./assets/images/linkedin.png" alt="Jetez un oeil à mon profi linkedIn" title="Jetez un oeil à mon profi linkedIn">
@@ -47,7 +55,7 @@
 
     <div class="cardalter"> 
         <!-- section Projets persos -->
-        <section class="section ">
+        <section class="section" id="projets">
             <div>
                 <h3>Projets perso</h3>
                 <p>Al Mamounia : Réalisation d’un site interactif autour de textes philosophiques, développé avec mySQL, PHP, HTML5/CSS3 et JavaScript.</p>
@@ -56,7 +64,7 @@
         </section>
 
         <!-- section Expériences -->
-        <section class="section">
+        <section class="section" id="xp">
             <div>
                 <h3>Parcours professionnel</h3>
                     <h5>R2C System</h5>
@@ -79,11 +87,10 @@
         </section>
 
         <!-- Section A propos -->
-        <section class="section">
+        <section class="section" id="formations">
             <div>
-                <h3>A propos</h3>
+                <h3>Mes formations</h3>
                 <article>
-                    <h5>Formations</h5>
                     <p>Licence 3 Bachelor Développeuse web en alternance (depuis sept. 2020)</p>
                     <p>Titre RNCP Niveau 5 de Développeuse web et web mobile</p>
                     <p>BTS SP3S</p>
@@ -96,7 +103,7 @@
         </section>
 
         <!-- section Extra-pro -->
-        <section class="section">
+        <section class="section" id="extrapro">
             <div>
                 <h3>Extra-professionnel</h3>
                 <p>Association Trisomie 21 Deux Sèvres (depuis avril 2014)
