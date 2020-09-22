@@ -5,8 +5,8 @@ require 'Exception.php';
 require 'PHPMailer.php';
 require 'SMTP.php';
 
-include 'database.php';
-include 'queries.php';
+//include 'database.php';
+//include 'queries.php';
 
 //Define name spaces
 use PHPmailer\PHPmailer\Exception;
@@ -19,7 +19,7 @@ $email = $_POST['email'];
 $title = $_POST['title'];
 $content = $_POST['content'];
 
-addComments($database,$nom, $email, $title, $content);
+//addComments($database,$nom, $email, $title, $content);
 
 #Mail : enregistrement en bdd pour envoie l'adresse mail + envoie du mail
 #création d'une fonction comme pour queries
