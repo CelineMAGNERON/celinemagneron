@@ -39,9 +39,9 @@ $mail->SMTPSecure = "tls";
 //set port to connect smtp
 $mail->Port = "587";
 //set gmail username\
-$mail->Username = "magneron.cel@gmail.com";
+$mail->Username = $_ENV['MAILADRESS'];
 //set gmail password
-$mail->Password = "";
+$mail->Password = $_ENV['PASSWORD'];
 //accept SSL
 $mail->SMTPSecure = 'ssl'; 
 //set gmail subject
