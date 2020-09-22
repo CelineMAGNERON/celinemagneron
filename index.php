@@ -3,18 +3,9 @@
 ----------------------------->
 
 <?php 
-    require "vendor/autoload.php";
     //include './utils/database.php';
     //include './utils/queries.php';
     require_once 'layout/header.php'; 
-
-    use Dotenv\Dotenv;
-
-  //  if (file_exists(__DIR__ . '/.env')) {
-    //    echo "I'm in !";
-        $dotenv = Dotenv::createImmutable(__DIR__);
-        $dotenv->load();
-    //}
 ?>
 
 <!---------------------------- 
