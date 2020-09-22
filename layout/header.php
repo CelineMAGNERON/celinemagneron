@@ -19,18 +19,16 @@
             echo "Céline MAGNERON";
             } ?></title>
 
-<body>
 <header>
     <nav>
         <a href="index.php"> <img src="./assets/images/sydney-opera-house.png" alt="Accueil"
                 height="32px"></a>
         <ul class="nav-links-wrapper">
-            <li><a class="<?php echo  $page === 'Qui sui-je' ?  'active' : ''  ?>" href="quisuisje.php"
-                    title="Qui suis-je">Qui suis-je ?</a></li>
-            <li><a class="<?php echo  $page === 'A propos' ?  'active' : ''  ?>" href="a_propos.php"
-                    title="A propos">A propos</a></li>
-            <li><a class="<?php echo $page === 'Mes expériences' ?  'active' : ''  ?>" href="experience.php" title="Mes expériences">Expériences</a></li>
-            <li><a class="<?php echo $page === 'Mes projets perso' ?  'active' : ''  ?>" href="projets.php" title="Mes projets perso">Mes projets</a></li>
+            <li><a class="button" href="#who" title="Qui suis-je ?">Qui suis-je ?</a></li>
+            <li><a class="button" href="#projets" title="Mes projets persos">Mes projets perso</a></li>
+            <li><a class="button" href="#xp" title="Experiences">Mon parcours pro</a></li>
+            <li><a class="button" href="#formations" title="Formations">Mes formations</a></li>
+            <li><a class="button" href="#extrapro" title="Extra-pro">En extra-pro</a></li>
         </ul>
     </nav>
 </header>
