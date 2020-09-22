@@ -9,9 +9,10 @@ require 'SMTP.php';
 //include 'database.php';
 //include 'queries.php';
 
+echo $_SERVER;
 use Dotenv\Dotenv;
 
-//  if (file_exists(__DIR__ . '/.env')) {
+  //if (file_exists(__DIR__ . '/.env')) {
   //    echo "I'm in !";
       $dotenv = Dotenv::createImmutable('../');
       $dotenv->load();
