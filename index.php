@@ -8,8 +8,8 @@
     //include './utils/queries.php';
     require_once './layout/header.php'; 
 
-    //$dotenv = Dotenv\Dotenv::createMutable(__DIR__);
-    //$dotenv->load();
+    $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
+    $dotenv->load();
 ?>
 
 <!---------------------------- 
