@@ -9,16 +9,13 @@ require 'SMTP.php';
 //include 'database.php';
 //include 'queries.php';
 
-print_r(getenv('MAILADRESS'));
-print_r(getenv('PASSWORD'));
-
 use Dotenv\Dotenv;
 
-  //if (file_exists(__DIR__ . '/.env')) {
+  if (file_exists(__DIR__ . '/../.env')) {
   //    echo "I'm in !";
       $dotenv = Dotenv::createImmutable('../');
       $dotenv->load();
-  //}
+  }
 
 //Define name spaces
 use PHPmailer\PHPmailer\Exception;
