@@ -9,7 +9,9 @@ require 'SMTP.php';
 //include 'database.php';
 //include 'queries.php';
 
-echo $_SERVER;
+print_r(getenv());
+print_r($_ENV);
+
 use Dotenv\Dotenv;
 
   //if (file_exists(__DIR__ . '/.env')) {
