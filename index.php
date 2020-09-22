@@ -5,7 +5,7 @@
 <?php 
     require "./vendor/autoload.php";
     //include './utils/database.php';
-    include './utils/queries.php';
+    //include './utils/queries.php';
     require_once './layout/header.php'; 
 
     $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
