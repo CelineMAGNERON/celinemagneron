@@ -9,8 +9,8 @@ require 'SMTP.php';
 //include 'database.php';
 //include 'queries.php';
 
-print_r(getenv());
-print_r($_ENV);
+print_r(getenv('MAILADRESS'));
+print_r(getenv('PASSWORD'));
 
 use Dotenv\Dotenv;
 
