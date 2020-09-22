@@ -9,6 +9,14 @@ a {
 /*********************************
 *     HEADER CSS
 **********************************/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: white;
+}
 
 nav {
     display: flex;
@@ -29,7 +37,7 @@ nav {
 .nav-links-wrapper li a {
     padding: 16px 32px;
     font-size: 1em;
-    color: #c90035;
+    color: #D80844;
 }
 
 .nav-links-wrapper li a:hover {
