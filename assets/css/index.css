@@ -5,7 +5,10 @@
 body {
     height: 100vh;
     overflow-x: hidden;
-    margin-bottom: 16px;
+}
+
+main {
+    margin: 0px, 64px;
 }
 
 #maincard {
@@ -91,6 +94,11 @@ body {
     margin-bottom: 16px;
     padding-bottom: 16px;
     color: #c90035;
+}
+
+.logo {
+    margin:8px;
+    padding :8px;
 }
 
 .cardalter {

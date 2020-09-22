@@ -4,7 +4,7 @@
 
 <?php 
     require "./vendor/autoload.php";
-    include './utils/database.php';
+    //include './utils/database.php';
     include './utils/queries.php';
     require_once './layout/header.php'; 
 
@@ -36,12 +36,17 @@
     <section id="who">
         <h3>Qui suis-je ?</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem porro quam mollitia architecto fugit, animi cum, adipisci nobis id autem modi voluptas quibusdam magni, sapiente nulla. Quia minima enim exercitationem.</p>
-        <a href="https://www.linkedin.com/in/c%C3%A9line-magneron-861253138/" rel="" target="_blank">
-            <img class="logo" src="./assets/images/linkedin.png" alt="Jetez un oeil à mon profi linkedIn" title="Jetez un oeil à mon profi linkedIn">
-        </a>
-        <a href="https://open.spotify.com/user/ityc%C3%A9li?si=LI7kVpwgQGODDoairJCEWQ" rel="" target="_blank">
-            <img class="logo" src="./assets/images/spotify-sketch.png" alt="Jetez une oreille à mon profil Spotify" title="Jetez une oreille à mon profil Spotify">
-        </a>
+        <div class="logo">
+            <a href="https://www.linkedin.com/in/c%C3%A9line-magneron-861253138/" rel="" target="_blank">
+                <img class="logo" src="./assets/images/linkedin.png" alt="Jetez un oeil à mon profi linkedIn" title="Jetez un oeil à mon profi linkedIn">
+            </a>
+            <a href="https://open.spotify.com/user/ityc%C3%A9li?si=LI7kVpwgQGODDoairJCEWQ" rel="" target="_blank">
+                <img class="logo" src="./assets/images/spotify-sketch.png" alt="Jetez une oreille à mon profil Spotify" title="Jetez une oreille à mon profil Spotify">
+            </a>
+            <a href="https://github.com/CelineMAGNERON" rel="" target="_blank">
+                <img class="logo" src="./assets/images/github.png" alt="Jetez une oreille à mon profil GitHub" title="Jetez une oreille à mon profil GitHub">
+            </a>
+        </div>
     </section>
 
     <div class="cardalter"> 
