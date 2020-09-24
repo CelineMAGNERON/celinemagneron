@@ -18,8 +18,8 @@
         <img id="photo" src="./assets/images/profil.jpg" alt="photoProfil"/>
     </div>
         <div class="cardcontent">
-            <h1>Développeuse web JavaScript Front end</h1>
-            <h3>Je développe des applications en co-conception et des interfaces accessibles à tout public</h3>
+            <h1>Développeuse web junior</h1>
+            <h3>J'ai pour projet de développer des applications en eco-conception et des interfaces accessibles à tout public</h3>
             <div id="navig">
                 <a class="button" href="#who" title="Qui suis-je ?">Qui suis-je ?</a>
                 <a class="button" href="#projets" title="Mes projets persos">Mes projets perso</a>
