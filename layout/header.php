@@ -30,6 +30,7 @@
             <li><a class="button" href="#xp" title="Experiences">Mon parcours pro</a></li>
             <li><a class="button" href="#formations" title="Formations">Mes formations</a></li>
             <li><a class="button" href="#extrapro" title="Extra-pro">En extra-pro</a></li>
+            <li><a class="button" href="#comments" title="Contact">Me contacter</a></li>
         </ul>
     </nav>
 </header>

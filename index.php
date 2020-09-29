@@ -22,13 +22,6 @@
         <div class="cardcontent">
             <h1>Développeuse web junior</h1>
             <h3>J'ai pour projet de développer des applications en eco-conception et des interfaces accessibles à tout public</h3>
-            <div id="navig">
-                <a class="button" href="#who" title="Qui suis-je ?">Qui suis-je ?</a>
-                <a class="button" href="#projets" title="Mes projets persos">Mes projets perso</a>
-                <a class="button" href="#xp" title="Experiences">Mon parcours pro</a>
-                <a class="button" href="#formations" title="Formations">Mes formations</a>
-                <a class="button" href="#extrapro" title="Extra-pro">En extra-pro</a>
-            </div>
         </div>
     </section>
 
