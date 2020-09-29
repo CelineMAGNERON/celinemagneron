@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Site de présentation de Céline MAGNERON"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> </head>
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- mysqli_init -->
     
 <title><?php if (isset($title)) {

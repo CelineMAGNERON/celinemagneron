@@ -26,10 +26,7 @@ main {
 }
 
 .sidebar {
-    display: flex;
     background-color: lightgray;
-    flex-basis: 100%;
-    align-items: flex-end;
 }
 
 #maincard {
@@ -177,6 +174,7 @@ main {
     text-align: center;   
     margin-bottom: 16px;
     padding-bottom: 16px;
+    padding: 0 32px;
 }
 .section div {
     width: 50%;
@@ -199,6 +197,7 @@ main {
 }
 
 .logo {
+    display: flex;
     margin:8px;
     padding :8px;
 }
@@ -211,25 +210,18 @@ main {
 }
 
 .section:nth-child(odd) {
-    background: #D80844;
+    background: linear-gradient(#D80844, #ff5627);
     color: white;
     justify-content: flex-end;
 }
 
 .section:nth-child(even) h3 {
-    color: #D80844;
-}
-
-.cardleft {
-    flex-flow: column wrap;
-    padding: 16px;
-    text-align: center; 
-    justify-content: flex-end;
-    background: rgba(0, 0, 0, .4);
+    color: #ff5627;
 }
 
 #comments {
     display: flex;
+    padding: 0 32px;
     flex-wrap: wrap;
     flex-flow: column wrap;
     justify-content: center;
@@ -239,19 +231,16 @@ main {
 }
 
 #comments h2 {
-    font-size: 1,5em;
-    color: #D80844;
+    color:#ff5627;
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column wrap;
     justify-content: center;
     text-align: center; 
 }
 
 .form {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     text-align: center;   
     margin: 16px;
@@ -260,12 +249,35 @@ main {
 
 .formcontent {
     display: flex;
-    flex-wrap: wrap;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;  
     margin: 8px;
     padding: 8px;
+}
+
+.boutn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30vw;
+    border: none;
+    padding: 8px 6px;
+	border-radius:2px;
+	font:bold 13px Arial;
+	color: white;
+    background: #ff5627;
+}
+
+.ninety {
+   margin: 16px;
 }
 
 

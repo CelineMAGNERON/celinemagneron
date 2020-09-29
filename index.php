@@ -123,8 +123,9 @@
     Demander un feedback au visiteur   ;)-->
     <div>
         <section id="comments">
-            <h2>Dites bonjour   :)</h2>
+            
             <form class="form" action="./utils/traitement-form.php" method="POST">
+            <h2>Dites bonjour   :)</h2>
                 <?php if (isset($_POST['error'])) {
                     echo $_POST['error'];
                 }
@@ -136,13 +137,13 @@
                     <input id="mail" type="text" name="email" placeholder="Votre email" required/>
                 </div>
                 <div class="formcontent">
-                    <input id="title" type="text" name="title" placeholder="L'objet de votre message" required/>
-                </div>
-                <div class="formcontent">
                     <textarea id="content" name="content" placeholder="Votre message" required></textarea>
                 </div>
-                <button type="submit" name="formsend" id="formsend" value="Envoyer">Envoyer</button>
             </form>
+            <div class="boutn">
+                <button class="btn" type="submit" name="formsend" id="formsend" value="Envoyer">Envoyer</button>
+            </div>
+            <div class="ninety"><img src="./assets/images/tenor.gif" alt="send" title="Send"></div>
         </section>
     </div>
 
