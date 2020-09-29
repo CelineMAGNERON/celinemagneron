@@ -13,7 +13,7 @@
             MAIN             
 ----------------------------->
 <main class="main">
-    <div class="sidebar">Je suis en cours de construction</div>
+    <div class="sidebar">Je suis en cours de construction . . .   ;)</div>
 
     <section id="maincard">
         <div class="img">

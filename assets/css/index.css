@@ -27,6 +27,7 @@ main {
 
 .sidebar {
     display: flex;
+    background-color: lightgray;
     flex-basis: 100%;
     align-items: flex-end;
 }
