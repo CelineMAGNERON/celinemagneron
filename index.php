@@ -12,11 +12,13 @@
 <!---------------------------- 
             MAIN             
 ----------------------------->
-<main>
+<main class="main">
+    <div class="sidebar">Je suis en cours de construction</div>
+
     <section id="maincard">
-    <div>
-        <img id="photo" src="./assets/images/profil.jpg" alt="photoProfil"/>
-    </div>
+        <div class="img">
+            <img id="photo" src="./assets/images/profil.jpg" alt="photoProfil"/>
+        </div>
         <div class="cardcontent">
             <h1>Développeuse web junior</h1>
             <h3>J'ai pour projet de développer des applications en eco-conception et des interfaces accessibles à tout public</h3>

@@ -10,7 +10,8 @@ a {
 *     HEADER CSS
 **********************************/
 header {
-    position: fixed;
+    display: flex;
+    flex-basis: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -27,10 +28,11 @@ nav {
     }
 
 .nav-links-wrapper {
-    list-style: none;
     display: flex;
+    list-style: none;
     flex-wrap: wrap;
-    margin-left: 16px;
+    padding: 8 16px;
+    align-items: center;
     flex: 1;
 }
 

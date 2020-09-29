@@ -2,20 +2,35 @@
 *     MAIN CSS
 **********************************/
 * { 
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 body {
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     overflow-x: hidden;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    display: flex;
+    flex-basis: 100%;
+    align-items: flex-end;
 }
 
 #maincard {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex-flow: column wrap;
     height:100vh;
+    width: 100%;
     justify-content: center;
     text-align: center; 
     animation: fadein 2s;
@@ -87,6 +102,24 @@ body {
     }
 }
 
+.img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#photo {
+    clip-path: polygon(21% 0, 100% 0%, 80% 100%, 0% 100%);
+}
+
+#cardcontent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+        }
+
 #maincard h1 {
     font-size: 3em;
     margin-bottom: 8px;
@@ -100,7 +133,10 @@ body {
 }
 
 #navig{
-    margin: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #maincard a {
@@ -113,14 +149,6 @@ body {
 #maincard a:hover {
     color: #ff5627;
 }
-
-#photo {
-    clip-path: polygon(21% 0, 100% 0%, 80% 100%, 0% 100%);
-}
-
-#cardcontent {
-    text-align: center;
-    }
 
 #who {
     display: flex;
