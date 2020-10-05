@@ -1,10 +1,6 @@
 footer {
-    display: flex;
-    flex-basis: 100%;
     justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background: white;
+    text-align: center;
+    background-color: #d80844;
+    color: white;
 }

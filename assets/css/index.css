@@ -1,283 +1,332 @@
-/*********************************
-*     MAIN CSS
-**********************************/
-* { 
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0;
-}
+@media all and (orientation: landscape) {
+  #maincard {
+    height: 100%;
+  }
 
-body {
-    background: white;
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-    height: 100vh;
-    overflow-x: hidden;
-    align-items: center;
-}
+  #who {
+    height: 100%;
+  }
 
-main {
-    display: flex;
-    width: 100vw;
-    margin-top: 50px;
-    flex-direction: column;
-    flex-wrap: wrap;
+  #projets {
+    height: 100%;
+  }
+
+  #xp {
+    height: 100%;
+  }
+
+  #formations {
+    height: 100%;
+  }
+
+  #extrapro {
+    height: 100%;
+  }
+
+  #comments {
+    height: 100%;
+  }
 }
 
 .sidebar {
-    background-color: lightgray;
+  margin-top: 26px;
+  text-align: center;
+  color: red;
+}
+
+.cat {
+  height: 70px;
+}
+
+/*********************************
+*     MAIN CSS
+**********************************/
+
+section {
+  padding: 1.5em;
+}
+
+section h3 {
+  margin-top: 24px;
 }
 
 #maincard {
-    display: flex;
-    flex-wrap: wrap;
-    height:100vh;
-    width: 100%;
-    justify-content: center;
-    text-align: center; 
-    animation: fadein 2s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari et Chrome */
-    -o-animation: fadein 2s; /* Opera */
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari et Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-moz-keyframes fadein { /* sur Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes fadein { /* sur Safari et Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-webkit-keyframes fadein {
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-o-keyframes fadein { /* sur Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes anim {
-    0% {
-    color : #c90035;
-    }
-    25% {
-        color : black;
-    }
-    50% {
-        color : #c90035;
-    }
-    75% {
-        color : #ff5627;
-    }
-    100% {
-        color : #c90035;
-    }
+@-o-keyframes fadein {
+  /* sur Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes anim {
-    0% {
-    color : #c90035;
-    }
-    50% {
-        color : #ff5627;
-    }
-    100% {
-        color : #c90035;
-    }
-}
-
-.img{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.img {
+  margin-top: 16px;
+  align-items: center;
+  text-align: center;
 }
 
 #photo {
-    clip-path: polygon(21% 0, 100% 0%, 80% 100%, 0% 100%);
-    max-height: 245px;
+  clip-path: polygon(21% 0, 100% 0%, 80% 100%, 0% 100%);
+  max-height: 245px;
+  border-radius: 10px;
 }
 
-#cardcontent {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-        }
+.cardcontent {
+  align-items: center;
+  text-align: center;
+}
 
 #maincard h1 {
-    font-size: 3em;
-    margin-bottom: 8px;
-    animation: anim 5s infinite;
-    -webkit-animation: anim 8s infinite;
+  font-size: 3em;
+  animation: anim 5s infinite;
+  -webkit-animation: anim 8s infinite;
 }
 
-#maincard h3 {
-    font-size: 1,5em;
+@keyframes anim {
+  0% {
+    color: #c90035;
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color: #c90035;
+  }
+  75% {
     color: #ff5627;
+  }
+  100% {
+    color: #c90035;
+  }
 }
 
-#navig{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#maincard a {
-    margin: 16px;
-    margin-bottom: 0px;
-    padding: 8px;
-    font-size: 1em;
-    font-weight: bold;
-    color: #D80844;}
-
-#maincard a:hover {
+@-webkit-keyframes anim {
+  0% {
+    color: #c90035;
+  }
+  50% {
     color: #ff5627;
+  }
+  100% {
+    color: #c90035;
+  }
 }
 
-.section {
-    display: flex;
-    width: 100%;
-    padding: 16px;
-    justify-items: center;
-    text-align: center;
+#maincard h4 {
+  margin: 16px;
+  font-size: 1, 5em;
+}
+.cardcontent button {
 }
 
-#who {
-    display: flex;
-    height: 100vh;
-    margin-top: 80px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;   
-    margin-bottom: 16px;
-    padding-bottom: 16px;
-    padding: 0 32px;
-}
-.section div {
-    width: 50%;
-    height:100vh;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
+.click {
+  background-color: #c90035;
+  border: none;
+  padding: 8px 6px;
+  margin: 16px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-#who h3 {
-    color: #D80844;
+.click-content {
+  color: white;
 }
 
-#who p {
-    margin: 1em;
-    text-align: justify;
+.click-content:hover {
+  color: white;
 }
 
+/*Bounce*/
+@keyframes kreep {
+  0% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  50% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-0.5rem);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+div.kreep {
+  display: inline-block;
+  /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+  animation: kreep 0.7s ease 2s infinite alternate;
+}
+
+div.kreep:hover {
+  animation: none;
+}
+/*END BOUNCER*/
+
+/*********************************
+*     SEPARATOR CSS
+**********************************/
+section article {
+  padding: 0px;
+}
+
+.separator {
+  margin-bottom: 48px;
+  height: 2px;
+  width: 20%;
+  border: none;
+  box-shadow: none;
+  background-color: #c90035;
+}
+
+.separatorwhite {
+  margin-bottom: 48px;
+  height: 2px;
+  width: 20%;
+  border: none;
+  box-shadow: none;
+  background-color: white;
+}
+
+/*********************************
+*     QUI SUIS-JE CSS
+**********************************/
+.who-content {
+  justify-items: center;
+}
+
+.who-content h3 {
+  text-align: center;
+  color: #c90035;
+}
+
+.profils {
+  margin: 24px;
+}
+
+.profils-link {
+  margin: 0 16px;
+}
+
+/*********************************
+*     LOGO CSS
+**********************************/
 .logo {
-    display: flex;
-    margin:8px;
-    padding :8px;
+  max-width: 200px;
+  margin-bottom: 24px;
 }
 
-.cardalter {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    flex-grow: 1;
+/*********************************
+*     PROJETS CSS
+**********************************/
+#projets {
+  background: linear-gradient(#d80844, #ff5627);
 }
 
-.section:nth-child(odd) {
-    background: linear-gradient(#D80844, #ff5627);
-    color: white;
-    justify-content: flex-end;
+.projets-content {
+  color: white;
 }
 
-.section:nth-child(even) h3 {
-    color: #ff5627;
+article h5 {
+  text-align: center;
+  margin: 24 0px;
 }
 
-#comments {
-    display: flex;
-    padding: 0 32px;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;  
-    margin: 16px;
-    padding: 16px;
+/*********************************
+*     EXPERIENCE CSS
+**********************************/
+.xp-content {
 }
 
-#comments h2 {
-    color:#ff5627;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center; 
+.xp-content h3 {
+  text-align: center;
+  color: #c90035;
 }
 
+/*********************************
+*     FORMATION CSS
+**********************************/
+#formations {
+  background: linear-gradient(#ff5627, #d80844);
+  color: white;
+}
+
+.formations-content {
+}
+
+/*********************************
+*     EXTRA-PRO CSS
+**********************************/
+.extrapro-content {
+}
+
+.extrapro-content h3 {
+  text-align: center;
+  color: #c90035;
+}
+
+.marie {
+  clip-path: circle(43% at 50% 50%);
+}
+
+/*********************************
+*     CONTACT CSS
+**********************************/
 .form {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    text-align: center;   
-    margin: 16px;
-    padding: 16px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.formcontent {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;  
-    margin: 8px;
-    padding: 8px;
+.comments-content h2 {
+  color: #d80844;
 }
 
-.boutn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 32px;
+.haxBox {
+  color: #d80844;
+  caret-color: #ff5627;
+  font-size: 1, 5em;
+  padding: 24px;
+  border: 2px solid #ff5627;
+  border-radius: 16px;
+  margin: 24px;
 }
 
-.btn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30vw;
-    border: none;
-    padding: 8px 6px;
-	border-radius:2px;
-	font:bold 13px Arial;
-	color: white;
-    background: #ff5627;
+.haxBox:focus {
+  outline: none;
 }
-
-.ninety {
-   margin: 16px;
-}
-
-
