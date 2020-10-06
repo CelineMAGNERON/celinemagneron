@@ -12,7 +12,7 @@
     <!-- Section Main -->
     <main class="container-fluid">
         <section class="row" id="maincard">
-            <span class=" d-block col-12 sidebar">Site en cours de construction . . . (Port du casque conseillé)<img class="cat" src="./assets/images/tenorcat.gif" alt="send" title="constructing"></span>
+            <span class=" d-block col-12 sidebar">Site en cours de construction . . . ( Port du casque conseillé )<img class="cat" src="./assets/images/tenorcat.gif" alt="send" title="constructing"></span>
             <div class="row mainbox">
                 <div class="col-12 img">
                     <img id="photo" src="./assets/images/profil.jpg" alt="photoProfil" />
