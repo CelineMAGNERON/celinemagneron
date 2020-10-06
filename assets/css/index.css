@@ -235,6 +235,10 @@ section article {
   color: #c90035;
 }
 
+.whotext {
+  margin: 8px;
+}
+
 .profils {
   margin: 24px;
 }
@@ -248,7 +252,7 @@ section article {
 **********************************/
 .logo {
   max-width: 200px;
-  margin-bottom: 24px;
+  margin: 24px 0px;
 }
 
 /*********************************
@@ -330,3 +334,4 @@ article h5 {
 .haxBox:focus {
   outline: none;
 }
+
