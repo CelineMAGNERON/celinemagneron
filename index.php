@@ -142,28 +142,28 @@
                 <h3 class="text-center">Extra-professionnel</h3>
                 <hr class="separator">
                 <div class="row">
-                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
                         <h5>Association Trisomie 21 Deux Sèvres (depuis avril 2014)</h5>
                         <p>Vice présidente, référente communication</p>
                         <a class="col" href="https://www.facebook.com/trisomie21.79" rel="" target="_blank">
                             <img class="logo" src="./assets/images/t21DSlogo.jpg" alt="Facebook de Trisomie 21 Deux-Sèvres" title="Facebook de Trisomie 21 Deux-Sèvres">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
                         <h5>Arche de Marie (depuis juillet 2020)</h5>
                         <p>Bénévole au centre de soin et de protection de la faune sauvage</p>
                         <a class="col" href="https://www.lanouvellerepublique.fr/deux-sevres/marie-une-vie-devouee-aux-animaux-sauvages" rel="" target="_blank">
                             <img class="logo marie" src="./assets/images/Marie2.jpg" alt="Article sur L'Arche de Marie" title="Article sur L'Arche de Marie">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
                         <h5>Croix Rouge (2011, 2019)</h5>
                         <p>Bénévole à Poitiers, Toulouse puis Niort comme équipière au Samu social et au Centre Temporaire d'Hébergement d'Urgence</p>
                         <a class="col" href="https://www.croix-rouge.fr/Nos-actions/Action-sociale/Lutte-contre-l-exclusion/Samu-social" rel="" target="_blank">
                             <img class="logo" src="./assets/images/croix-rouge-française.jpg" alt="Site du Samu social" title="Site du Samu social">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
                         <h5>Montpellier Université Club (2009)</h5>
                         <p>Coach d’une équipe féminine de handball de 16 ans</p>
                         <a class="col" href="https://www.mucomnisports.fr/" rel="" target="_blank">
