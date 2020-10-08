@@ -63,20 +63,20 @@
                 <h3 class="text-center">Projets perso</h3>
                 <hr class="separatorwhite">
                 <div class="row">
-                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
-                        <iframe class="col-12" src="https://www.youtube.com/embed/86x7pGfgGL8?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                        <iframe width="540" height="315" class="col-12" src="https://www.youtube.com/embed/86x7pGfgGL8?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5 class="video">Al Mamounia</h5>
                         <p>Réalisation d’un site interactif autour de textes philosophiques.</p>
                         <p>Développé avec mySQL, PHP, HTML5/CSS3 et JavaScript.</p>
                     </article>
-                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
-                        <iframe class="col-12" src="https://www.youtube.com/embed/_GQV8KbXIqQ?autoplay=1&loop=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                        <iframe width="540" height="315" class="col-12" src="https://www.youtube.com/embed/_GQV8KbXIqQ?autoplay=1&loop=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5>Shiatsu Niort</h5>
                         <p>Reprise de site sur WordPress.</p>
                         <p>Injection de CSS, en attendant la version from scratch.</p>
                     </article>
-                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
-                        <iframe class="col-12" src="https://www.youtube.com/embed/h2JkTlUWf3s?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                        <iframe width="540" height="315" class="col-12" src="https://www.youtube.com/embed/h2JkTlUWf3s?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5>Générateur de citations</h5>
                         <p>Réalisation en JavaScript et une coquette dose de geekerie</p>
                     </article>
