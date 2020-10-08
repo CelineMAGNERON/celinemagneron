@@ -257,6 +257,23 @@ article h5 {
   color: white;
 }
 
+.reverse p {
+  direction: rtl;
+}
+
+.parcours {
+  margin: 16px 0px;
+}
+
+.parc {
+  margin: 0px;
+}
+
+.step {
+  height: 28px;
+  margin-right: 8px;
+}
+
 /*********************************
 *     EXTRA-PRO CSS
 **********************************/

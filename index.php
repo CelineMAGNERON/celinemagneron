@@ -90,20 +90,20 @@
                 <h3 class="text-center">Parcours professionnel</h3>
                 <hr class="separator">
                 <div class="row">
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <h5>R2C System</h5>
                         <p>Projet de stage chez R2C System</p>
                         <p>De mai à juillet 2020</p>
                         <p>Réalisation de pages d’accueil et de login pour une application de lecture numérique en streaming, modélisation de base de données ,Développés avec PHP sur Laravel 6.</p>
                         </p>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <h5>Les Dames’Oiselles</h5>
                         <p>Cocréatrice du projet et responsable communication</p>
                         <p>D’août 2016 à septembre 2019</p>
                         <p>Traiteur végétarien à base de produits bio ou raisonnés en circuit cours.</p>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <h5>Union Départementale des Associations Familiales 79</h5>
                         <p>Animatrice référente du GEM de Parthenay d’avril 2017 à juin 2019</p>
                         <p>Chargée de communication de février 2017 à juin 2019</p>
@@ -123,15 +123,35 @@
                 <h3 class="text-center">Mes formations</h3>
                 <hr class="separatorwhite">
                 <div class="row">
-                    <article class="col-12">
-                        <p>Licence 3 Bachelor Développeuse web en alternance (depuis sept. 2020)</p>
-                        <p>Titre RNCP Niveau 5 de Développeuse web et web mobile</p>
-                        <p>BTS SP3S</p>
-                        <p>4ème année de praticienne shiatsu</p>
-                        <p>Licence 2 en Sciences Humaines</p>
-                        <p>Licence 2 en STAPS</p>
-                        <p>Secourisme : PSC1 et SST</p>
-                    </article>
+                    <div class="col-12 parcours">
+                        <h5><img class="step" src="./assets/images/here.png" alt="" title="">Licence 3 Bachelor Développeuse web en alternance</h5>
+                        <p class="parc">De septebre 2020 à juillet 2021</p>
+                        <p class="parc">ICSSA de Niort, en partenariat avec 3iL Ingénieurs</p>
+                    </div>
+                    <div class="col-12 parcours reverse">
+                        <h5><img class="step" src="./assets/images/footprints.png" alt="" title="">Titre RNCP Niveau 5 de Développeuse web et web mobile</h5>
+                        <p class="parc">De novembre 2019 à mai 2020</p>
+                        <p class="parc">ENI Ecole Informatique de Niort</p>
+                    </div>
+                    <div class="col-12 parcours">
+                        <h5><img class="step" src="./assets/images/footprints2.png" alt="" title="">BTS Service et Prestations du Secteur Sanitaire et Social</h5>
+                        <p class="parc">De 2011 à 2013</p>
+                        <p class="parc">MFR d'Aytré</p>
+                    </div>
+                    <div class="col-12 parcours reverse">
+                        <h5><img class="step" src="./assets/images/footprints2.png" alt="" title="">Licence 2 en STAPS</h5>
+                        <p class="parc">Il y a un certain temps</p>
+                        <p class="parc">Université de Montpellier</p>
+                    </div>
+                    <div class="col-12 parcours">
+                        <h5><img class="step" src="./assets/images/footprints.png" alt="" title="">Licence 2 en Sciences Humaines</h5>
+                        <p class="parc">Il y a un certain temps aussi</p>
+                        <p class="parc">Université de Poitiers</p>
+                    </div>
+                    <div class="col-12 parcours reverse">
+                        <h5 class="parc"><img class="step" src="./assets/images/footprints.png" alt="" title="">Secourisme : PSC1 et Sauveteur secouriste du travail</h5>
+                    </div>
+
                 </div>
             </div>
         </section>
