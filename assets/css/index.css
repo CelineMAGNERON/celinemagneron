@@ -1,32 +1,4 @@
-@media all and (orientation: landscape) {
-  #maincard {
-    height: 100%;
-  }
 
-  #who {
-    height: 100%;
-  }
-
-  #projets {
-    height: 100%;
-  }
-
-  #xp {
-    height: 100%;
-  }
-
-  #formations {
-    height: 100%;
-  }
-
-  #extrapro {
-    height: 100%;
-  }
-
-  #comments {
-    height: 100%;
-  }
-}
 
 .sidebar {
   margin-top: 26px;

@@ -63,19 +63,19 @@
                 <h3 class="text-center">Projets perso</h3>
                 <hr class="separatorwhite">
                 <div class="row">
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
                         <iframe class="col-12" src="https://www.youtube.com/embed/86x7pGfgGL8?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5 class="video">Al Mamounia</h5>
                         <p>Réalisation d’un site interactif autour de textes philosophiques.</p>
                         <p>Développé avec mySQL, PHP, HTML5/CSS3 et JavaScript.</p>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
                         <iframe class="col-12" src="https://www.youtube.com/embed/_GQV8KbXIqQ?autoplay=1&loop=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5>Shiatsu Niort</h5>
                         <p>Reprise de site sur WordPress.</p>
                         <p>Injection de CSS, en attendant la version from scratch.</p>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-4 col-lg4">
+                    <article class="col-xs-12 col-sm-6 col-md-4 col-lg4">
                         <iframe class="col-12" src="https://www.youtube.com/embed/h2JkTlUWf3s?autoplay=1&loop=1&rel=0" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h5>Générateur de citations</h5>
                         <p>Réalisation en JavaScript et une coquette dose de geekerie</p>
@@ -142,28 +142,28 @@
                 <h3 class="text-center">Extra-professionnel</h3>
                 <hr class="separator">
                 <div class="row">
-                    <article class="col-xs-12 col-sm-12 col-md-3 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
                         <h5>Association Trisomie 21 Deux Sèvres (depuis avril 2014)</h5>
                         <p>Vice présidente, référente communication</p>
                         <a class="col" href="https://www.facebook.com/trisomie21.79" rel="" target="_blank">
                             <img class="logo" src="./assets/images/t21DSlogo.jpg" alt="Facebook de Trisomie 21 Deux-Sèvres" title="Facebook de Trisomie 21 Deux-Sèvres">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-3 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
                         <h5>Arche de Marie (depuis juillet 2020)</h5>
                         <p>Bénévole au centre de soin et de protection de la faune sauvage</p>
                         <a class="col" href="https://www.lanouvellerepublique.fr/deux-sevres/marie-une-vie-devouee-aux-animaux-sauvages" rel="" target="_blank">
                             <img class="logo marie" src="./assets/images/Marie2.jpg" alt="Article sur L'Arche de Marie" title="Article sur L'Arche de Marie">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-3 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
                         <h5>Croix Rouge (2011, 2019)</h5>
                         <p>Bénévole à Poitiers, Toulouse puis Niort comme équipière au Samu social et au Centre Temporaire d'Hébergement d'Urgence</p>
                         <a class="col" href="https://www.croix-rouge.fr/Nos-actions/Action-sociale/Lutte-contre-l-exclusion/Samu-social" rel="" target="_blank">
                             <img class="logo" src="./assets/images/croix-rouge-française.jpg" alt="Site du Samu social" title="Site du Samu social">
                         </a>
                     </article>
-                    <article class="col-xs-12 col-sm-12 col-md-3 col-lg3 text-center">
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg3 text-center">
                         <h5>Montpellier Université Club (2009)</h5>
                         <p>Coach d’une équipe féminine de handball de 16 ans</p>
                         <a class="col" href="https://www.mucomnisports.fr/" rel="" target="_blank">
@@ -178,27 +178,29 @@
         <section class="row" id="comments">
             <div class="form">
                 <div class="row comments-content">
-                    <h3 class="col-12 text-center">M'envoyer un mail :)</h3>
-                    <span class=" d-block col-12 sidebar">Mise en place d'envoi de mail en cours . . . (Pour l'instant merci de bien vouloir passer par mon profil LinkedIn - Lien dans la section Qui suis-je ?)</span>
-                    <form class="col-12" action="./utils/traitement-form.php" method="POST">
-                        <?php if (isset($_POST['error'])) {
-                            echo $_POST['error'];
-                        }
-                        ?>
-                        <div class="">
-                            <input class="col-8 formcontent haxBox" id="author" type="text" name="nom" placeholder="Votre nom" required />
+                    <div class="col-12">
+                        <h3 class="col-12 text-center">M'envoyer un mail :)</h3>
+                        <span class=" d-block col-12 sidebar">Mise en place d'envoi de mail en cours . . . (Pour l'instant merci de bien vouloir passer par mon profil LinkedIn - Lien dans la section Qui suis-je ?)</span>
+                        <form class="col-12" action="./utils/traitement-form.php" method="POST">
+                            <?php if (isset($_POST['error'])) {
+                                echo $_POST['error'];
+                            }
+                            ?>
+                            <div class="">
+                                <input class="col-8 formcontent haxBox" id="author" type="text" name="nom" placeholder="Votre nom" required />
+                            </div>
+                            <div class="">
+                                <input class="col-8 formconten haxBox" id="mail" type="text" name="email" placeholder="Votre email" required />
+                            </div>
+                            <div class="formcontent">
+                                <textarea class="haxBox col-8" id="content" name="content" placeholder="Votre message" required></textarea>
+                            </div>
+                        </form>
+                        <div class="col-12 align-items-center text-center">
+                            <button class="btn" type="submit" name="formsend" id="formsend" value="Envoyer">Envoyer</button>
                         </div>
-                        <div class="">
-                            <input class="col-8 formconten haxBox" id="mail" type="text" name="email" placeholder="Votre email" required />
-                        </div>
-                        <div class="formcontent">
-                            <textarea class="haxBox col-8" id="content" name="content" placeholder="Votre message" required></textarea>
-                        </div>
-                    </form>
-                    <div class="col-12 align-items-center text-center">
-                        <button class="btn" type="submit" name="formsend" id="formsend" value="Envoyer">Envoyer</button>
+                        <div class="col-12 align-items-center text-center ninety"><img src="./assets/images/tenor.gif" alt="send" title="Send"></div>
                     </div>
-                    <div class="col-12 align-items-center text-center ninety"><img src="./assets/images/tenor.gif" alt="send" title="Send"></div>
                 </div>
             </div>
         </section>
