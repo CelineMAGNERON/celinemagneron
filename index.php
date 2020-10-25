@@ -51,7 +51,10 @@
                         <img class="logo" src="./assets/images/spotify-sketch.png" alt="Jetez une oreille à mon profil Spotify" title="Jetez une oreille à mon profil Spotify">
                     </a>
                     <a class="profils-link" href="https://github.com/CelineMAGNERON" rel="" target="_blank">
-                        <img class="logo" src="./assets/images/github.png" alt="Jetez un oeil à mon profil GitHub" title="Jetez une oreille à mon profil GitHub">
+                        <img class="logo" src="./assets/images/github.png" alt="Jetez un oeil à mon profil GitHub" title="Jetez un oeil à mon profil GitHub">
+                    </a>
+                    <a class="profils-link" href="https://www.pinterest.fr/cl0308/mes-cr%C3%A9as/" rel="" target="_blank">
+                        <img class="logo" src="./assets/images/pinterest.png" alt="Jetez un oeil à mon profil Pinterest" title="Jetez un oeil à mon profil GitHub">
                     </a>
                 </div>
             </div>
@@ -109,7 +112,7 @@
                         <p>Chargée de communication de février 2017 à juin 2019</p>
                         <p>Chargée de mission pour le site internet du PIAS 79 de 2015 à 2018</p>
                         <p>Assistante mandataire judicaire à la protection des majeurs de 2011 à 2017.</p>
-                        <a class="" href="https://www.pias79.fr" rel="" target="_blank">
+                        <a class="col" href="https://www.pias79.fr" rel="" target="_blank">
                             <img class="logo" src="./assets/images/pias79.png" alt="Ouvrir le PIAS79" title="Ouvrir le PIAS79">
                         </a>
                     </article>
@@ -128,7 +131,7 @@
                         <p class="parc">De septebre 2020 à juillet 2021</p>
                         <p class="parc">ICSSA de Niort, en partenariat avec 3iL Ingénieurs</p>
                     </div>
-                    <div class="col-12 parcours reverse">
+                    <div class="col-12 col-md-6 offset-md-6">
                         <h5><img class="step" src="./assets/images/footprints.png" alt="" title="">Titre RNCP Niveau 5 de Développeuse web et web mobile</h5>
                         <p class="parc">De novembre 2019 à mai 2020</p>
                         <p class="parc">ENI Ecole Informatique de Niort</p>
@@ -138,7 +141,7 @@
                         <p class="parc">De 2011 à 2013</p>
                         <p class="parc">MFR d'Aytré</p>
                     </div>
-                    <div class="col-12 parcours reverse">
+                    <div class="col-12 col-md-6 offset-md-6">
                         <h5><img class="step" src="./assets/images/footprints2.png" alt="" title="">Licence 2 en STAPS</h5>
                         <p class="parc">Il y a un certain temps</p>
                         <p class="parc">Université de Montpellier</p>
@@ -148,7 +151,7 @@
                         <p class="parc">Il y a un certain temps aussi</p>
                         <p class="parc">Université de Poitiers</p>
                     </div>
-                    <div class="col-12 parcours reverse">
+                    <div class="col-12 col-md-6 offset-md-6">
                         <h5 class="parc"><img class="step" src="./assets/images/footprints.png" alt="" title="">Secourisme : PSC1 et Sauveteur secouriste du travail</h5>
                     </div>
 

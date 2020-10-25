@@ -2,7 +2,7 @@
 define('HOST', 'localhost');
 define('DB_NAME', 'celinemagneron'); /*<nom de la base de données dans phpMyAdmin*/
 define('USER', 'root');
-define('PASS', '');
+define('PASS', 'root');
 
 try {
     $database = new PDO("mysql:host=" . HOST . ";dbname=" . DB_NAME, USER, PASS);
